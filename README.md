@@ -13,6 +13,8 @@
 
 ##### Module 3: Order Module
 1.	Add product to cart/Pay now function
+2.	Cancel Order
+3.	View my orders
 
 
 ##### Module 4: Payment Module
