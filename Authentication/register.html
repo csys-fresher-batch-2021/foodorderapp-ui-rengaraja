@@ -15,7 +15,7 @@
                <label>Email: <input type="email" placeholder="Email" name="username" id="username" required/><br><br></label>
                <label>Password: <input type="password" placeholder="password" name="password" id="password" required/><br><br></label>
                 <input id="rgstr_btn" type="submit" value="Register" onclick="store()">
-                <p class="message">Already have an account? <a href="file:///C:/Users/Revathy/Desktop/foodd/food-ordering-/Authentication/signup.html">Signin</a></p>
+                <p class="message">Already have an account? <a href="./Authentication/signup.html">Signin</a></p>
               </form>
             </div>
 
@@ -54,7 +54,7 @@
         localStorage.setItem('username', username.value);
         localStorage.setItem('password', password.value);
         localStorage.setItem('firstname', firstname.value);
-        window.open('file:///C:/Users/Revathy/Desktop/foodd/food-ordering-/index.html')
+        window.open('./index.html')
     }
 }
 
