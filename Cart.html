@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset = "UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <title>Restaurant</title>
+        <style>
+        .products-container{
+            max-width:650px;
+            justify-content:space-around;
+            margin:0 auto;
+            margin-top:50px;
+        }
+        .product-header{
+            width:100%;
+            max-width:650px;
+            display:flex;
+            justify-content:flex-start;
+            border-bottom:4px solid lightgrey;
+            margin:0 auto;
+        }
+        .product-title{
+            width:45%;
+
+        }
+        .price{
+            width:15%;
+            display:flex;
+            align-items:center;
+        }
+        .quantity{
+            width:30%;
+            display:flex;
+            align-items:center;
+        }
+        .total{
+            width:10%;
+            
+            display:flex;
+            align-items:center;
+        }
+        .product{
+            width:45%;
+            display:flex;
+            justify-content:space-around;
+            align-items:center;
+            padding:10px 0;
+            
+        }
+        .products {
+            width:100%;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .basketTotalContainer{
+            display: flex;
+            justify-content: flex-end;
+            width:100%;
+            padding: 10px 0;
+        }
+        .basketTotalTitle{
+            width:30%;
+        }
+        .TotalPrice{
+            width:10%;
+        }
+        
+         
+        </style>
+    </head>
+    <body>
+        <table id="header" border="0" width="100%" cellpadding="0" cellspacing="0" style="background-color: #a73030;">
+          <tr>
+              <td style="padding: 1%;">
+                  <table border="0" width="70%" cellpadding="15" cellspacing="0" align="center">
+                      <tr>
+                          <td>
+                              <font face ="arial" color= "#00000" size="5">
+                                  Restaurant
+                              </font>
+                          </td>
+                          <td>
+                              &nbsp;
+                          </td>
+                          <td>
+                              <a href="file:///C:/Users/Revathy/Desktop/foodd/food-ordering-/index.html"><font face="arial" color="#ffffff" size="4">Home</font></a>
+                          </td>
+                          <td>
+                            <a href=""><font face="arial" color="#ffffff" size="4">About</font></a>
+                        </td>
+                        <td>
+                            <a href=""><font face="arial" color="#ffffff" size="4">Contact</font></a>
+                        </td>
+                        <td>
+                            <a href="file:///C:/Users/Revathy/Desktop/foodd/food-ordering-/Cart.html"><font face="arial" color="#ffffff" size="4" class="cart">Cart &nbsp;<span>0</span></font></a>
+                        </td>
+                        <td>
+                            <a href="file:///C:/Users/Revathy/Desktop/foodd/food-ordering-/Authentication/signin.html"><font face="arial" color="#ffffff" size="4">Signup</font></a>
+                        </td>
+                      </tr>
+                  </table>
+              </td>
+          </tr>
+        </table>
+        <div class="products-container">
+        <div class="product-header">
+        <h5 class="product-title">Meals</h5>
+        <h5 class="price">Price</h5>
+        <h5 class= "quantity">Quantity</h5>
+        <h5 class="total">Total</h5>
+        </div>
+        <div class="products">
+        
+        </div>
+        </div>
+            <script src="app.js"></script> 
+            <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        </body>
+        </html>
